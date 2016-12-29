@@ -90,7 +90,7 @@ gulp.task("revCollector",function(){
 				.pipe(loadPlugins.revCollector({
 					replaceReved:true,
 					dirReplacements:{
-						"../src/js/":"./js/"
+						"../src/js/":"./js"
 					}
 				}))
 				.pipe(gulp.dest("./dist"));
